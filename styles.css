@@ -74,6 +74,10 @@ body {
     background-color: silver;
 }
 
+.textlines {
+    color: white;
+}
+
 @keyframes orbit {
     to {
         transform: rotate(360deg);
