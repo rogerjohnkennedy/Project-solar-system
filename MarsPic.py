@@ -4,7 +4,7 @@ import random
 def get_mars_image(api_key):
     base_url = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos"
     params = {
-        "sol": random.randint(100, 2000),  # Choose a random sol (Martian day)
+        "sol": random.randint(100, 2000),
         "api_key": api_key,
     }
 
